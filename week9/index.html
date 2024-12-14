@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>แบบฟอร์มสมัครงาน</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>แบบฟอร์มสมัครงาน</h1>
+        <form>
+            ชื่อ-นามสกุล: <input type="text" name="name" placeholder="กรอกชื่อ-นามสกุล" required><br>
+            เพศ: 
+            <input type="radio" name="sex" value="male">ชาย 
+            <input type="radio" name="sex" value="female">หญิง 
+            <input type="radio" name="sex" value="other">ทางเลือก<br>
+            ภาษาโปรแกรมที่ถนัด:<br>
+            <input type="checkbox" name="language" value="python">Python <br>
+            <input type="checkbox" name="language" value="cpp">C++ <br>
+            <input type="checkbox" name="language" value="java">Java <br>
+            <input type="checkbox" name="language" value="htmlcss">HTML CSS<br>
+            อีเมล: <input type="email" name="email" placeholder="กรอกอีเมล"><br>
+            เบอร์โทร: <input type="tel" name="phone" placeholder="กรอกเบอร์โทรศัพท์"><br>
+            ตำแหน่ง: 
+            <select name="position">
+                <option>เลือกตำแหน่ง</option>
+                <option value="developer">นักพัฒนาซอฟต์แวร์</option>
+                <option value="designer">นักออกแบบ</option>
+                <option value="tester">ผู้จัดการ</option>
+            </select><br>
+            อัปโหลดเรซูเม่: <input type="file" name="file"><br>
+            ข้อความเพิ่มเติม:<br>
+            <textarea name="additional" rows="3" placeholder="กรอกข้อความเพิ่มเติม"></textarea><br>
+            <button type="submit">ส่งใบสมัคร</button>
+        </form>
+    </body>
+</html>
