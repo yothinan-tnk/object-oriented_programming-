@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าลงชื่อเข้าใช้</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #ccc;
+            width: 400px;
+            padding: 20px;
+            border: 10px solid #ccc; /* เพิ่มเส้นกรอบ */
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #45a049;
+        }
+        .login-container a {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>ลงชื่อเข้าใช้</h2>
+        <input type="text" placeholder="ชื่อผู้ใช้งาน" name="username">
+        <input type="password" placeholder="รหัสผ่าน" name="password">
+        <button type="button">ลงชื่อเข้าใช้</button>
+        <a href="#">ไม่มีบัญชีผู้ใช้</a>
+    </div>
+</body>
+</html>
